@@ -1,0 +1,1 @@
+/usr/bin/c++    --std=c++11   CMakeFiles/city.dir/main.cpp.o CMakeFiles/city.dir/SDL/SDL.cpp.o CMakeFiles/city.dir/SDL/Window.cpp.o CMakeFiles/city.dir/SDL/Texture.cpp.o  -o city -lSDL2 -lSDL2_image -lSDL2_ttf -lSDL2_mixer 

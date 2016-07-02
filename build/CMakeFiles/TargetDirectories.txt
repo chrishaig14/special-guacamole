@@ -1,0 +1,3 @@
+/home/chris/Desktop/sdl/build/CMakeFiles/edit_cache.dir
+/home/chris/Desktop/sdl/build/CMakeFiles/rebuild_cache.dir
+/home/chris/Desktop/sdl/build/CMakeFiles/city.dir
