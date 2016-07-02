@@ -1,1 +1,0 @@
-/usr/bin/c++      CMakeFiles/city.dir/main.cpp.o  -o city -lSDL2 
