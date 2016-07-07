@@ -5,13 +5,14 @@
 #include <SDL2/SDL_video.h>
 
 #include "SDL.h"
+#include "Renderer.h"
 #include "Texture.h"
 
 class SDL::Window {
 
     SDL_Window *window = NULL;
 
-    SDL_Renderer *renderer;
+    SDL::Renderer *renderer;
 
 public:
 
@@ -21,13 +22,14 @@ public:
 
     bool valid();
 
-    SDL_Renderer * getRenderer();
+    SDL::Renderer * getRenderer();
 
     void update();
 
     void setTitle(const char string[7]);
 
 
+    void toggleFullScreen();
 };
 
 

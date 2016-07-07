@@ -14,3 +14,21 @@ int ::SDL::init() {
     TTF_Init();
     return r;
 }
+
+void ::SDL::delay(int ms) {
+    SDL_Delay( ms );
+}
+
+int ::SDL::getTicks() {
+    return SDL_GetTicks();
+}
+
+int ::SDL::getMouseState(int*x, int* y) {
+    return SDL_GetMouseState(x,y);
+}
+
+void ::SDL::quit() {
+    IMG_Quit();
+    TTF_Quit();
+    SDL_Quit();
+}

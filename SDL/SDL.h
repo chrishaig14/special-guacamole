@@ -11,10 +11,25 @@ namespace SDL {
 
     int init();
 
+    void delay(int ms);
+
+    int getTicks();
+
+    int getMouseState(int*x, int* y);
+
     class Window;
 
+    class Renderer;
+
     class Texture;
-    
+
+    class Text;
+
+    class Sound;
+
+    class Music;
+
+    void quit();
 };
 
 
