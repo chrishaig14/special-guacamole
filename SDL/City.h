@@ -12,7 +12,7 @@ class City {
     GameGrid grid;
 public:
     void update(float dt){
-        grid.update(dt);
+
     }
     void draw(){
         grid.draw();

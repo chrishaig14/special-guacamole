@@ -15,7 +15,6 @@ SDL::Text::Text(SDL::Renderer* renderer, std::string text, std::string font, int
     }
     SDL_Color color = {r,g,b};
     //TTF_SetFontStyle(gFont,TTF_STYLE_BOLD);
-    std::cout << "text.c_str():" << text.c_str() << std::endl;
     SDL_Surface* textSurface = TTF_RenderText_Blended_Wrapped( gFont, text.c_str(), color,100);
     SDL_Rect rrr;
     SDL_GetClipRect(textSurface, &rrr);
